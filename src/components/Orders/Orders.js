@@ -18,7 +18,7 @@ class Orders extends Component {
   render() {
     const orderEls = this.props.orders.map(order => {
       return (
-        <div key={order.id} className="order">
+        <div  key={order.id} className="order">
           <h3>{order.name}</h3>
           <ul className="ingredient-list">
             {order.ingredients.map(ingredient => {
