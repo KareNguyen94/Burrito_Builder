@@ -1,5 +1,5 @@
 import React from 'react';
-import OrderForm from './OrderForm';
+import {OrderForm} from './OrderForm';
 import { render, fireEvent, waitFor } from '@testing-library/react';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
